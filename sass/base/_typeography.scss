@@ -1,0 +1,60 @@
+/*******fonts-sizes******/
+$nav-font-size:1.3em;
+$small-font-size:1.0em;
+$font-heading:1.2em;
+
+
+
+/*******font-colors******/
+$color-heading:#1C3144;
+$color-Sub-Hd:#E5E6E4;
+
+
+
+
+/*******font-family*****/
+$font-stack-1:'source-code pro',sans-serif;
+$font-stack-2:'redditmono',sans-serif;
+
+
+//body
+body{
+    font-family:$font-stack-2;
+    background-color: royalblue;
+}
+
+
+//headings
+.intro-section{
+    font-family:$font-stack-1;
+    font-size: $font-heading;
+    color: $color-heading;
+    
+}
+
+.About-me{
+    font-family:$font-stack-1;
+    
+    
+}
+
+.My-projects{
+    font-family:$font-stack-1;
+}
+
+.skills{
+    font-family: $font-stack-1;
+}
+
+//links
+a {
+    text-decoration: none;
+    color: $color-txt;
+}
+
+li{
+    list-style: none;
+}
+
+
+
